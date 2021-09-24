@@ -276,6 +276,9 @@ border-radius: 4px;
   object-fit: cover;
   border-radius: 50%;
 }
+.our-team__specialization {
+  color: #fffd;
+}
 .our-team__socials {
   display: flex;
   column-gap: 0.5rem;
