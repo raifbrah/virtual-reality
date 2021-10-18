@@ -52,10 +52,17 @@ section p {
   padding-top: 2.5rem;
 }
 .header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  padding: 0px 5%;
   z-index: 1000;
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
+  transition: height .3s, background-color .3s;
 }
 .header__contact-us-btn {
   padding: 0.7em 1.4em;
@@ -67,7 +74,7 @@ section p {
 }
 .header__menu {
   display: flex;
-  column-gap: 4rem;
+  column-gap: 3rem;
   align-items: center;
 }
 .header__menu {
@@ -257,6 +264,13 @@ border-radius: 4px;
 .our-team__team h3 {
   margin: 0;
 }
+.our-team__temmate-1-2-block {
+  display: flex;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .our-team__temmate-block {
   width: 245px;
   height: 240px;
@@ -342,4 +356,9 @@ border-radius: 4px;
   font-weight: 700;
   border-radius: inherit;
   background: linear-gradient(90.35deg, #2563EB 0.36%, #D946EF 201.02%)
+}
+
+
+@media screen and (max-width: ) {
+  
 }
