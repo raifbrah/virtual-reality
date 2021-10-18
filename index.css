@@ -76,9 +76,10 @@ section p {
   display: flex;
   column-gap: 3rem;
   align-items: center;
-}
-.header__menu {
   font-weight: 500;
+}
+.header__menu a {
+  cursor: pointer;
 }
 .home__container {
   display: flex;
