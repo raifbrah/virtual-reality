@@ -64,7 +64,7 @@ section p {
   justify-content: space-between;
   transition: height .3s, background-color .3s;
 }
-.header__contact-us-btn {
+.header__subscribe-btn {
   padding: 0.7em 1.4em;
   background: var(--btn-linear-gradient);
   border-radius: 0.3em;

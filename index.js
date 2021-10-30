@@ -30,9 +30,27 @@ const home = document.querySelector('#home');
 const header__serviceBtn = document.querySelector('.header__service-btn');
 const ourService = document.querySelector('#our-service');
 
+const header__aboutUsBtn = document.querySelector('.header__about-us-btn');
+const aboutUs = document.querySelector('#about-us-top');
+
+const header__ourTeamBtn = document.querySelector('.header__our-team-btn');
+const ourTeam = document.querySelector('#our-team');
+
+const header__subscribeBtn = document.querySelector('.header__subscribe-btn');
+const subscribe = document.querySelector('#subscribe');
+
 header__homeBtn.onclick = () => {
-  scrollTo(home);
+  scrollTo(home)
 }
 header__serviceBtn.onclick = () => {
-  scrollTo(ourService);
+  scrollTo(ourService)
+}
+header__aboutUsBtn.onclick = () => {
+  scrollTo(aboutUs)
+}
+header__ourTeamBtn.onclick = () => {
+  scrollTo(ourTeam)
+}
+header__subscribeBtn.onclick = () => {
+  scrollTo(subscribe)
 }
