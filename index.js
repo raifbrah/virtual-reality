@@ -39,18 +39,26 @@ const ourTeam = document.querySelector('#our-team');
 const header__subscribeBtn = document.querySelector('.header__subscribe-btn');
 const subscribe = document.querySelector('#subscribe');
 
+
+const headerCheckbox = document.querySelector("#header__checkbox");
+
 header__homeBtn.onclick = () => {
   scrollTo(home)
+  headerCheckbox.checked = false;
 }
 header__serviceBtn.onclick = () => {
   scrollTo(ourService)
+  headerCheckbox.checked = false;
 }
 header__aboutUsBtn.onclick = () => {
   scrollTo(aboutUs)
+  headerCheckbox.checked = false;
 }
 header__ourTeamBtn.onclick = () => {
   scrollTo(ourTeam)
+  headerCheckbox.checked = false;
 }
 header__subscribeBtn.onclick = () => {
   scrollTo(subscribe)
+  headerCheckbox.checked = false;
 }
