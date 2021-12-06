@@ -90,6 +90,9 @@ section p {
 .header__checkbox-label {
   display: none;
 }
+.header__mobile-bg-wrapper {
+  display: none;
+}
 
 
 .home__container {
@@ -419,6 +422,7 @@ border-radius: 4px;
     right: 0;
     bottom: 0;
 
+    display: block;
     opacity: 0;
     transform: translateX(-100%);
     background: rgba(0, 0, 0, .97);
